@@ -1,0 +1,194 @@
+/* Estilos generales para todas las páginas */
+body {
+    background-color: #f0f8ff; /* Fondo celeste claro */
+    color: #333; /* Color de texto general */
+    font-family: 'Oswald', sans-serif; /* Fuente extraída de Google Fonts */
+}
+
+
+/*canva editar boton*/
+.btn-btn-primaria{  background-color:#FF33FF;  border-radius: 5px; /* Bordes redondeados */
+            border: none;  }
+
+/* cuerpo canva */
+.offcanvas-body{background-color:#FF69B4 ; }
+
+.offcanvas-header {  background-color:  #FFC9ED;    }
+
+.btn-btn-secondary-dropdown-toggle{  background-color: #ff1493; border-radius: 5px; /* Bordes redondeados */
+            border: none;     }
+
+
+
+/* boton rosa */
+        .btn-rosado {
+            background-color: #ff69b4; /* Color rosado */
+            color: white; /* Color del texto */
+            padding: 10px 20px;  /* Tamaño del botón */
+            font-size: 16px; /* Tamaño de la fuente */
+            border-radius: 5px; /* Bordes redondeados */
+            border: none; /* Sin borde */
+        }
+        .btn-rosado:hover {
+            background-color: #ff1493; /* Color al pasar el mouse */
+        } 
+
+  /*direccion boton volver a inicio */      
+  
+      .container-mt-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+       }
+
+/* biblio */
+.lili{color:#FF00C9;}
+ 
+    
+
+/* Estilo para la barra de navegación */
+
+
+.navbar {
+    background-color: #FFDBF7;  /* Fondo rosado pastel */
+    border-bottom: 2px solid #87ceeb; /* Borde inferior celeste */
+}
+.navbar a.nav-link  {
+    color: #333; /* Color  del texto en los enlaces */
+}
+.navbar a.nav-link:hover {
+    color: #ffffff; /* Color blanco al pasar el cursor */
+    background-color: #87ceeb; /* Fondo celeste al pasar el cursor */
+}
+.navbar-brand img {
+    border-radius: 50%; /* imagen del logo en forma circular */
+}
+
+/* Estilos para los botones */
+button, .btn {
+    border-radius: 10px; /* Bordes redondeados */
+}
+.btn-outline-success {
+    color: #87ceeb; /* Color de borde y texto celeste */
+    border-color: #87ceeb;
+}
+.btn-outline-success:hover {
+    background-color: #87ceeb; /* Fondo celeste al pasar el cursor */
+    color: white;
+}
+.btn-danger {
+    background-color: #ffb6c1; /* Fondo rosado pastel */
+    border-color: #ff69b4; /* Bordes rosados fuertes */
+}
+
+/* Estilos del carrusel */
+.carousel-inner img {
+    border-radius: 10px; /* Bordes redondeados para las imágenes del carrusel */
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #87ceeb; /* Iconos de navegación celestes */
+    border-radius: 50%;
+}
+
+/* Estilos para los encabezados */
+h1, h2, h3 {
+    color: #ff69b4;  /* Rosado fuerte */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    text-align: center;
+}
+
+/* Estilos para los artículos */
+article {
+background-color:#DEFFF4; /* fondo */
+    border: 1px solid #87ceeb; /* Borde celste claro */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+/*titulo clase*/
+.t1{color:blue;}
+
+/*parrafos articulos esi*/
+.ar {color:#DC016E; font-style:bold;}
+
+
+/* Estilo para el acordeón */
+.accordion-button {
+    background-color: #ffb6c1; /* Fondo rosado */
+    color: #333; /* Texto oscuro */
+}
+.accordion-button:not(.collapsed) {
+    background-color: #87ceeb; /* Fondo celeste cuando está abierto */
+    color: #fff; /* Texto blanco */
+}
+
+/* Estilo para la paginación */
+.pagination .page-link {
+    background-color: #ffb6c1; /* Fondo rosado pastel */
+    color: #333; /* Color del texto */
+    border: 1px solid #87ceeb; /* Borde celeste */
+}
+.pagination .page-link:hover {
+    background-color: #87ceeb; /* Fondo celeste al pasar el cursor */
+    color: #fff;
+}
+
+/* Estilos para las listas */
+.list-group-item {
+    background-color: #f0f8ff; /* Fondo celeste claro */
+    color: #333; /* Texto oscuro */
+}
+.list-group-item:hover {
+    background-color: #ffb6c1; /* Fondo rosado al pasar el cursor */
+    color: white;
+}
+
+/* Estilo para el offcanvas */
+.offcanvas {
+    background-color: #fef0f5; /* Fondo rosado muy claro */
+    color: #333; /* Color de texto */
+}
+.offcanvas .offcanvas-header {
+    background-color: #ffb6c1; /* Fondo rosado pastel */
+    color: white; /* Texto blanco */
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #ff69b4; /* Fondo rosado fuerte */
+    color: white; /* Texto blanco */
+    text-align: center;
+    padding: 10px;
+    border-top: 2px solid #87ceeb; /* Borde superior celeste */
+}
+footer ul li {
+    list-style: none;
+}
+
+/* Estilos personalizados para el toast */
+.toast-header {
+    background-color: #87ceeb; /* Fondo celeste */
+    color: white; /* Texto blanco */
+}
+.toast-body {
+    background-color: #fef0f5; /* Fondo rosado claro */
+    color: #333;
+}
+
+/* CSS para editar el tamaño de las imágenes en el carrusel */
+
+/* Configuración de las imágenes del carrusel */
+.carousel-inner img {
+    width: 80%; /* Ajusta el ancho de las imágenes al 80% del contenedor */
+    height: auto; /* Mantiene la proporción de las imágenes */
+    margin: 0 auto; /* Centra las imágenes dentro del contenedor */
+    border-radius: 10px; /* Bordes redondeados para un diseño más estilizado */
+}
+
+/* Ajuste del contenedor del carrusel */
+#carouselExampleIndicators {
+    max-width: 800px; /* Limita el tamaño máximo del carrusel */
+    margin: 20px auto; /* Centra el carrusel en la página */
+}
